@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 font-size: 28px;>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Aaron Acosta</h2>
+        <img id="bio-image" src="https://aboutme.imgix.net/background/users/a/a/r/aaronacosta_1456186256_56.jpg?q=80&dpr=1&auto=format&fit=max&w=1200&h=630&rect=0,223,787,413" alt="AaronAcosta">
+      </section>
+      <p>"Creative Producer and Digital Marketing Strategist in Mexico City"</p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">micorreoesaaron@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">MrAaronAcosta</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
+
+</html>
