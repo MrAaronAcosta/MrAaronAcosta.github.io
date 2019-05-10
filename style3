@@ -1,6 +1,6 @@
 body {
     background-color: #efeee7;
-    font: "Georgia", "TimesNewRoman", Times, serif;
+    font: Georgia, "TimesNewRoman", Times, serif;
     color: #333333; 
     margin: 0px;
     padding: 0px;
@@ -14,19 +14,20 @@ header {
 h1 {
     color: #eee;
     font-size: 28px;
-    padding: 1px;
-    border: 1px; 
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px; 
 }
 
 h2 {
     font-size: 24px;
 }
 
-#container {
+.container {
     margin: 0 auto;
 }
 
-.main_bio, .contact-info, .bio-image {
+#main_bio, #contact-info, #bio-image {
     float: left;
 }
     
@@ -46,8 +47,4 @@ h2 {
 
 li {
     color: #d21034
-}
-
-.contact-info {
-    width: 30%
 }
