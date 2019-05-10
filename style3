@@ -41,4 +41,13 @@ h2 {
 
 .contact-info {
     width: 30%
+    line-height- 1.5em;
+}
+
+li {
+    color: #d21034
+}
+
+.contact-info {
+    width: 30%
 }
