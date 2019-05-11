@@ -1,7 +1,22 @@
 
-@media screen and (min-width: 900px) {
-  article {
-    padding: 1rem 3rem;
+@media screen and (max-width: 420px) {
+  @media (aspect-ratio: 1/1) {
+  div {
+    color: red;
+  }
+}
+
+/* Minimum aspect ratio */
+@media (min-aspect-ratio: 8/5) {
+  div {
+    background: yellow;
+  }
+}
+
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 2/1) {
+  div {
+    border: 2px solid blue;
   }
 }
 
